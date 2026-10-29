@@ -49,8 +49,8 @@ flowchart LR
 
 ### 🎲 Fun facts
 
-- I speak English and Swahili fluently, and some French 🗣️
+- I speak 5 languages (not so fluently)
 - 2023 [Deep Learning Indaba](https://deeplearningindaba.com/) scholar in Accra 🇬🇭
 - I believe the ranking function is rarely where the bug is. Check upstream first.
 
-<p align="center"><sub>Say hi on LinkedIn, the coffee is on whoever replies first ☕</sub></p>
+<p align="center"><sub>Say hi on LinkedIn☕</sub></p>
