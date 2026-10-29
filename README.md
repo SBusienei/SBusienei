@@ -1,37 +1,56 @@
-<h1 align="center">Hi 👋, I'm Sharleen</h1>
-<h3 align="center">ML developer</h3>
+<h1 align="center">Hi, I'm Sharleen 👋</h1>
 
-<!-- - 🔭 I’m currently working on **Websites**    -->
+<p align="center">
+  <b>AI engineer · Nairobi 🇰🇪 · ex-Microsoft</b><br>
+  <i>I build AI systems, and then I try very hard to break them.</i>
+</p>
 
-Retrieval and evaluation for AI systems. How machines find the right thing, and how we know whether they did.
+<p align="center">
+  <a href="https://sbusienei.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/portfolio-sbusienei.github.io-7ee0b5?style=for-the-badge&logoColor=black"></a>
+  <a href="https://medium.com/@sbusienei"><img alt="Medium" src="https://img.shields.io/badge/Medium-@sbusienei-000000?style=for-the-badge&logo=medium"></a>
+  <a href="https://dev.to/sbusienei"><img alt="DEV" src="https://img.shields.io/badge/DEV-sbusienei-0a0a0a?style=for-the-badge&logo=devdotto"></a>
+  <a href="https://www.linkedin.com/in/sharleencheruto/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin"></a>
+</p>
 
-I currently work in Search, Assistant and Intelligence on agent and plugin discovery for Microsoft 365 Copilot — the systems that decide which tool a user's request should reach. Ingestion, semantic retrieval, ranking, and the measurement that says whether a change actually helped.
+---
 
-Two things I keep running into, and mostly what I build around. The ranking function is rarely where failures live — they happen upstream, in how documents were modelled, which fields were indexed, whether morphology was handled, and whether the query was ever a search query to begin with. And a confident number is often measuring something other than what the team thinks it is.
+### 🧭 What I do
 
-<!-- - 💬 Ask me about **Laravel**. -->
+Three years at Microsoft working on search and recommendation for Microsoft 365 Copilot taught me that the hard part
+of AI is rarely the model. It's knowing whether a change actually helped. Now I build LLM apps, retrieval and agents
+end to end, with the evaluation to match.
 
-<!-- - ⚡ Fun fact **Speaks Basic Deutsch and 한국어** -->
+```mermaid
+flowchart LR
+    Q([query]) --> B[BM25]
+    Q --> V[vector search]
+    B --> F{fuse}
+    V --> F
+    F --> R[rerank]
+    R --> A([answer you can trust?])
+    A -. measure it .-> E[(evals)]
+    E -. fix upstream .-> Q
+```
 
-<!-- ### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-<!-- <a href="https://dev.to/cheruto" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/cheruto" height="30" width="40" /></a>
--->
-<h3 align="left">Connect with me:</h3>
-<p align="left">
- <a href="https://linkedin.com/in/https://www.linkedin.com/in/sharleencheruto/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sharleencheruto/" height="30" width="40" /></a>
-</p> 
+### 🛠️ Things I've built
 
-<!-- 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
--->
+| Project | What it does |
+|---|---|
+| [**Netflix-Relevance-Project**](https://github.com/SBusienei/Netflix-Relevance-Project) | Hybrid retrieval over 8,807 titles, built to be broken and measured |
+| [**sloth-archivist**](https://github.com/SBusienei/sloth-archivist) | An offline photo triager: rules first, a local vision model second, and it never deletes anything 🦥 |
+| [**04-housing-data-analysis**](https://github.com/SBusienei/04-housing-data-analysis) | Hotel cancellation risk with SQL-first analysis and leakage-safe validation |
+| [**05-jobs-extractor**](https://github.com/SBusienei/05-jobs-extractor) | Turning messy job posts into validated JSON (in progress) |
 
-<!-- <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=cherutosharleen&show_icons=true&locale=en&layout=compact" alt="cherutosharleen" /></p> -->
+### 🧪 Currently
 
-<!--<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=cherutosharleen&show_icons=true&locale=en" alt="cherutosharleen" /></p>-->
+- 🔬 Learning RAG, LLM evals, MCP, deployment and observability, in public
+- ✍️ Getting back to writing on [Medium](https://medium.com/@sbusienei) and [DEV](https://dev.to/sbusienei)
+- 🌍 Open to AI engineering roles anywhere
 
-<!-- <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=cherutosharleen&" alt="cherutosharleen." /></p> -->
-<!-- -->
-.
+### 🎲 Fun facts
+
+- I speak English and Swahili fluently, and some French 🗣️
+- 2023 [Deep Learning Indaba](https://deeplearningindaba.com/) scholar in Accra 🇬🇭
+- I believe the ranking function is rarely where the bug is. Check upstream first.
+
+<p align="center"><sub>Say hi on LinkedIn, the coffee is on whoever replies first ☕</sub></p>
